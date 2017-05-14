@@ -11,7 +11,7 @@ public class TC1 {
 	@BeforeTest
 	public void BrowserInitite()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Me\\SeleniumProject\\src\\main\\resources\\ChromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\javaprac\\Practise\\selenium\\SeleniumFW\\SeleniumProject\\src\\main\\resources\\ChromeDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
 	}
