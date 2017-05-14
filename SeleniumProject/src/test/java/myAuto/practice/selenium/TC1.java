@@ -5,19 +5,21 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TC1 {
-	WebDriver driver;
+import com.practise.selenium.framework.BaseClass;
 
-	@BeforeTest
+public class TC1 extends BaseClass{
+	/*@BeforeTest
 	public void BrowserInitite()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Me\\SeleniumProject\\src\\main\\resources\\ChromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\javaprac\\Practise\\selenium\\SeleniumFW\\SeleniumProject\\src\\main\\resources\\ChromeDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
-	}
+	}*/
 	@Test
-	public void init()
+	public void init() throws InterruptedException
 	{
-	   driver.get("https://mail.google.com");	
+	    System.out.print("++++++++++++++++++++Start++++++++++++++++++++++++");
+	    Thread.sleep(5000);
+		driver.get("https://www.facebook.com/");	
 	}
 }
