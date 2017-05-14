@@ -5,16 +5,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TC1 {
+import com.practise.selenium.Framework.BaseClass;
+
+public class TC1 extends BaseClass{
 	WebDriver driver;
 
-	@BeforeTest
+	/*@BeforeTest
 	public void BrowserInitite()
 	{
 		System.setProperty("webdriver.chrome.driver", "D:\\javaprac\\Practise\\selenium\\SeleniumFW\\SeleniumProject\\src\\main\\resources\\ChromeDriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
-	}
+	}*/
 	@Test
 	public void init()
 	{
