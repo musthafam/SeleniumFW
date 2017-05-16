@@ -1,10 +1,6 @@
 package myAuto.practice.selenium;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import com.practise.selenium.framework.BaseClass;
 
 public class TC1 extends BaseClass{
@@ -21,6 +17,6 @@ public class TC1 extends BaseClass{
 	{
 	    System.out.print("++++++++++++++++++++Start++++++++++++++++++++++++");
 	    Thread.sleep(5000);
-		driver.get("https://www.Gmail.com/");	
+		driver.get("https://www.twitter.com/");	
 	}
 }
