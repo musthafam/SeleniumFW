@@ -31,6 +31,7 @@ public class Excelutility {
 		row = sheet.getRow(rnum);
 		cell=row.getCell(cnum);
 		String celldata=getcellvalue(cell);
+		System.out.println("+++++"+celldata);
 		return celldata;
 	}
 

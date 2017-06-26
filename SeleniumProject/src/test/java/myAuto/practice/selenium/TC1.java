@@ -20,9 +20,18 @@ public class TC1 extends BaseClass{
 	    Thread.sleep(5000);
 		driver.get("https://www.twitter.com/");	
 		System.out.print("++++++++++++++++++++Excel++++++++++++++++++++++++");
+		/*String output = Excelutility.getCellData(1, 1);*/
+	    //System.out.print(output);	
+	}
+	
+	/*@Test
+	public void TC2() throws InterruptedException
+	{
+	    
+		System.out.print("++++++++++++++++++++Excel++++++++++++++++++++++++");
 	    String output = Excelutility.getCellData(1, 1);
 	    System.out.print(output);	
 	}
-	
+	*/
 	
 }
